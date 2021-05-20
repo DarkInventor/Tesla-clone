@@ -8,7 +8,10 @@ function Header() {
   return (
     <Container>
       <a>
-        <img src="/images/logo.svg" alt="" />
+        <img
+          src="https://darkinventor.github.io/Tesla-clone/images/logo.svg"
+          alt=""
+        />
       </a>
       <Menu>
         <a href="#">Model S</a>
@@ -18,6 +21,9 @@ function Header() {
         <a href="#">Model X</a>
 
         <a href="#">Model Y</a>
+
+        <a href="#">Solar Roof</a>
+        <a href="#">Solar Panels</a>
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>

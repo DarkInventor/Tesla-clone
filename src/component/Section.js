@@ -24,7 +24,7 @@ function Section({
             {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
           </ButtonGroup>
         </Fade>
-        <DownArrow src="/images/down-arrow.svg"></DownArrow>
+        <DownArrow src="https://darkinventor.github.io/Tesla-clone/images/down-arrow.svg"></DownArrow>
       </Buttons>
     </Wrap>
   );
@@ -43,7 +43,7 @@ const Wrap = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: ${(props) => `url("/images/${props.bgImage}")`};
+  background-image: ${(props) => `url("${props.bgImage}")`};
 `;
 
 const ItemText = styled.div`
