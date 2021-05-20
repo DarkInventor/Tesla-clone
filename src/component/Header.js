@@ -8,7 +8,7 @@ function Header() {
   return (
     <Container>
       <a>
-        <img src="https://github.com/DarkInventor/Tesla-clone/blob/main/public/images/logo.svg" alt="" />
+        <img src="/images/logo.svg" alt="" />
       </a>
       <Menu>
         <a href="#">Model S</a>
